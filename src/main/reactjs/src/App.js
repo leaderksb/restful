@@ -17,13 +17,13 @@ function App() {
     };
 
     const onNonCorsHeaderHandler = () => {
-        axios.get('http://localhost:10000/not-cors')
+        axios.get('http://localhost:12000/not-cors')
             .then(responseHandler)
             .catch(errorHandler);
     };
 
     const onCorsHeaderHandler = () => {
-        axios.get('http://localhost:10000/cors').then(responseHandler);
+        axios.get('http://localhost:12000/cors').then(responseHandler);
     };
 
     const onNonProxyHandler = () => {

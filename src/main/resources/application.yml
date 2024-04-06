@@ -2,7 +2,7 @@ spring:
   application.name: restful
 
 server:
-  port: 8088
+  port: 12000
 
 logging:
   level:
